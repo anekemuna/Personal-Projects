@@ -11,8 +11,6 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 
-import java.util.concurrent.TimeUnit;
-
 
 public class MainPane extends BorderPane
 {
@@ -40,8 +38,6 @@ public class MainPane extends BorderPane
         inputField = new TextField();
 
         // add handlers
-
-
         submitButton.setOnAction(new SubmitButtonHandler());
         startButton.setOnAction(new StartButtonHandler());
         endButton.setOnAction(new EndButtonHandler());
