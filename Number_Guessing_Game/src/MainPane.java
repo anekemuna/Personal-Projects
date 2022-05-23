@@ -107,7 +107,6 @@ public class MainPane extends BorderPane
                     }
                 }
 
-
             }
             catch (NumberFormatException nfe)
             {
