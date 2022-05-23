@@ -5,3 +5,5 @@ Program generates a random number between 1 and 100. The user guesses what numbe
 
 ## Tools
 Uses javaFX features on jdk 8
+
+![Guessing Game Window](Guessing_Game_Window.PNG)
