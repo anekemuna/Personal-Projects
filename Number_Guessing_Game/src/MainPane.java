@@ -129,6 +129,9 @@ public class MainPane extends BorderPane
             chosen = (int) ((Math.random() * 100) + 1);
             guessCount = 0;
             guessLabel.setText((GUESSES - guessCount) +" guesses left");
+            inputField.clear();
+            resultLabel.setText("");
+
         }
     }
 
